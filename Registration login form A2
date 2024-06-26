@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="Reg_style.css">
+</head>
+<body>
+	<form id="reg_1">
+		<h1>Registration Form</h1>
+		<div>
+			<label for="name">Name :</label>
+			<input type="text" id="name" name="name" required>
+			<small>Error Message</small>
+		</div>
+		<div>
+			<label for="email">Email :</label>
+			<input type="text" id="email" name="email" required>
+			<small>Error Message</small>
+		</div>
+		<div>
+			<label for="password">Password :</label>
+			<input type="text" id="password" name="password" required>
+			<small>Error Message</small>
+		</div>
+		<button type="submit">Signup</button>
+	</form>
+	<script src="script_reg.js"></script>
+</body>
+</html>
